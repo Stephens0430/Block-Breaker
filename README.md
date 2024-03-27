@@ -15,7 +15,7 @@ For the ball I actually was going back and forth on how I actually wanted it to 
  - Using physics where the ball has a rigidbody and I aim the ball and send it on its way using an Impulse force. (This is what I ended up doing)
  - 2nd way would have been a more controlled approach where I could aim which ever Vector direction (Like Vector3.forward) and Lerp in that direction. When the ball hits a collider I could get the angle of the collision (then to keep it "simple") rotate the ball at the same reflected collision angle and keep lerping forward.
 
-The turret is pretty simple 2 scripts that adopt single responsibility one for aiming and the other that detects the spacebar press to shoot.
+The turret is pretty simple, just 2 scripts that each have a single responsibility one for aiming and the other that detects the spacebar press to shoot.
 
 For the blocks and balls I created Block/ or Ball TypeCatalogScriptableObjects that serve as "parts containers" and the Block/Ball PoolScriptableObjects are sort of factories that assemble the properties from those scriptable objects.
 
