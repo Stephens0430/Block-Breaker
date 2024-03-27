@@ -57,7 +57,7 @@ public class Block : MonoBehaviour
 
     private void CheckBlockHealth()
     {
-        if (_currentHitCount >= _totalHitPoints)
+        if (_currentHitCount == _totalHitPoints)
         {
             DestroyedEvent();
         }

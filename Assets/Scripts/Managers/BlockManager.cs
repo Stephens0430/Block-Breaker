@@ -13,7 +13,7 @@ public class BlockManager : MonoBehaviour
     [SerializeField] private Transform _blockParent;
 
     private static int _width = 13;
-    private static int _height = 16;
+    private static int _height = 8;
 
     [SerializeField] private Vector2Int _gridStartPosition = new Vector2Int(-22, 21);
 
