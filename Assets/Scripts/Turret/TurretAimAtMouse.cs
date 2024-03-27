@@ -8,12 +8,7 @@ public class TurretAimAtMouse : MonoBehaviour
     [SerializeField] private float turnSpeed;
     private Vector3 mousePosition;
     private Vector3 mouseWorldPosition;
-
-    void Start()
-    {
-        
-    }
-
+      
     void FixedUpdate()
     {
         FlattenMousePosition();

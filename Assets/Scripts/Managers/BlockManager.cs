@@ -7,7 +7,6 @@ public class BlockManager : MonoBehaviour
 {
     #region Vars
     [SerializeField] private GameEventsScriptableObject _gameEventsSO;
-    [SerializeField] private BlockTypeCatalogScriptableObject _blockTypeCatalogSO;
     [SerializeField] private BlockPoolScriptableObject _blockPoolSO;
 
     [SerializeField] private Transform _blockParent;
