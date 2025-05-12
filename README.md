@@ -25,5 +25,5 @@ For optimization here are some things that I implemented:
 
 ---------------------------------------------------------
 Things that I would have liked to improve on/ change
- - I would definitely create my own pooling scripts rather than using Unity's built in system. Unity has known bugs with some of the helper functions like ObjectPool.CountActive that would be helpful if they worked. Creating my own pool object would give me more control over what is exposed in code.
+ - I would definitely create my own pooling scripts rather than using Unity's built in system. Unity has known bugs with some of the helper functions like ObjectPool.CountActive that would normally have been prety useful.
  - Normally when I create my own pooling classes I prewarm the pool (instantiate a minimum amount immediately). Unity's built in ObjectPool does not prewarm by default, instead it instantiates and reuses what's been instantiated so it warms up as you use them. (Either way could be a good way to go, just depends on the actual object and goal)   
